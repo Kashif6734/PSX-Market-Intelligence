@@ -1,33 +1,36 @@
+<p align="center">
+  <img src="images/cover.png" alt="PSX Market Intelligence Dashboard" width="100%">
+</p>
+
 # 📈 PSX Market Intelligence & Portfolio Optimization System
 
-An end-to-end financial data analytics project that transforms historical Pakistan Stock Exchange (PSX) data into actionable business insights using **Python** and **Power BI**.
-
-This project demonstrates the complete data analytics lifecycle, including data collection, ETL, exploratory analysis, technical analysis, quantitative trading strategy evaluation, portfolio optimization, and interactive business intelligence dashboards.
-
----
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?logo=numpy)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Project Overview
 
-The Pakistan Stock Exchange (PSX) plays a significant role in Pakistan's financial ecosystem. Investors and analysts rely on historical market data to evaluate company performance, identify trading opportunities, and optimize investment portfolios.
+The **PSX Market Intelligence & Portfolio Optimization System** is an end-to-end financial data analytics project that transforms historical Pakistan Stock Exchange (PSX) data into actionable investment insights using **Python** and **Power BI**.
 
-This project simulates the workflow of a **Data Analyst** or **Quantitative Analyst** by integrating Python-based analytics with Power BI visualization to support data-driven investment decisions.
+The project simulates the workflow of a **Data Analyst** or **Quantitative Analyst** by integrating data collection, ETL, financial analytics, quantitative trading strategy evaluation, portfolio optimization, and business intelligence dashboards.
 
 ---
 
-## 🎯 Project Objectives
+# 🎯 Objectives
 
-- Collect historical stock market data from authentic financial sources.
+- Collect historical PSX stock market data.
 - Build an automated ETL pipeline using Python.
-- Perform descriptive and technical analysis of PSX-listed companies.
-- Evaluate quantitative trading strategies using backtesting techniques.
+- Perform descriptive and technical analysis.
+- Evaluate quantitative trading strategies.
 - Apply Modern Portfolio Theory for portfolio optimization.
-- Develop an interactive Power BI dashboard for financial decision support.
+- Develop interactive Power BI dashboards for decision support.
 
 ---
 
-# 🏢 Companies Included
-
-The project analyzes six major companies listed on the Pakistan Stock Exchange.
+# 🏢 Companies Analyzed
 
 | Sector | Companies |
 |---------|-----------|
@@ -35,23 +38,115 @@ The project analyzes six major companies listed on the Pakistan Stock Exchange.
 | Cement | DGKC, Lucky Cement |
 | Oil & Gas | OGDC, PPL |
 
----
-
-# 📅 Time Period
-
-**Historical Daily Data:** 2020 – 2025
+**Historical Data Period:** **2020 – 2025**
 
 ---
 
-# 📊 Data Sources
+# 📊 Dashboard Preview
 
-- Yahoo Finance (via `yfinance`)
-- Investing.com (KSE-100 Index)
-- Sector Classification Dataset
+## 🌍 1. Market Overview
+
+<p align="center">
+<img src="images/dashboard1_market_overview.png" width="90%">
+</p>
+
+Provides a macro-level overview of the Pakistan Stock Exchange including:
+
+- KSE-100 Index Trend
+- Market KPIs
+- Trading Volume
+- Sector Performance
+- Overall Market Trends
 
 ---
 
-# ⚙️ Technologies Used
+## 📈 2. Company Analysis
+
+<p align="center">
+<img src="images/dashboard2_company_analysis.png" width="90%">
+</p>
+
+Technical analysis dashboard featuring:
+
+- Candlestick Charts
+- Price Trend Analysis
+- Moving Average (MA20 & MA50)
+- Relative Strength Index (RSI)
+- Volume Analysis
+
+---
+
+## 📉 3. Trading Strategy Performance
+
+<p align="center">
+<img src="images/dashboard3_trading_strategy.png" width="90%">
+</p>
+
+Compares multiple trading strategies:
+
+- Moving Average Crossover Strategy
+- RSI Mean Reversion Strategy
+- Buy & Hold Benchmark
+
+Performance Metrics:
+
+- Total Return
+- Sharpe Ratio
+- Maximum Drawdown
+
+---
+
+## 💼 4. Portfolio Optimization
+
+<p align="center">
+<img src="images/dashboard4_portfolio_optimization.png" width="90%">
+</p>
+
+Portfolio optimization using **Modern Portfolio Theory**.
+
+Includes:
+
+- Monte Carlo Simulation
+- Efficient Frontier
+- Maximum Sharpe Portfolio
+- Minimum Volatility Portfolio
+- Portfolio Allocation
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Historical Stock Data
+          │
+          ▼
+ Data Collection (yfinance)
+          │
+          ▼
+ Data Cleaning & ETL
+          │
+          ▼
+ Feature Engineering
+          │
+          ▼
+ Descriptive Analytics
+          │
+          ▼
+ Technical Analysis
+          │
+          ▼
+ Trading Strategy Backtesting
+          │
+          ▼
+ Portfolio Optimization
+          │
+          ▼
+ Interactive Power BI Dashboard
+```
+
+---
+
+# 🛠 Technologies Used
 
 ### Programming
 
@@ -63,141 +158,64 @@ The project analyzes six major companies listed on the Pakistan Stock Exchange.
 
 ### Business Intelligence
 
-- Power BI
-- DAX
+- Microsoft Power BI
 - Power Query
+- DAX
 
-### Financial Analysis
+### Financial Analytics
 
-- Technical Indicators
 - Moving Average Strategy
 - RSI Strategy
 - Monte Carlo Simulation
 - Modern Portfolio Theory
 
----
+### Data Source
 
-# 🔄 Project Workflow
-
-```text
-Historical Data Collection
-            │
-            ▼
-Data Cleaning & ETL
-            │
-            ▼
-Feature Engineering
-            │
-            ▼
-Descriptive Analytics
-            │
-            ▼
-Technical Analysis
-            │
-            ▼
-Trading Strategy Evaluation
-            │
-            ▼
-Portfolio Optimization
-            │
-            ▼
-Interactive Power BI Dashboard
-```
+- Yahoo Finance (`yfinance`)
+- Investing.com (KSE-100 Index)
 
 ---
 
-# 🧹 ETL Pipeline
+# 🧠 Skills Demonstrated
 
-The project includes a fully automated ETL process developed in Python.
-
-Major tasks include:
-
-- Data collection using yfinance
-- Date standardization
-- Missing value handling
-- Duplicate removal
-- Data type conversion
-- Company & sector merging
-- KSE-100 integration
-- Return calculations
-  - Daily
-  - Weekly
-  - Monthly
-  - Annual
-
-The final cleaned dataset serves as the foundation for all analyses and dashboard visualizations.
+- Data Collection
+- ETL Development
+- Data Cleaning
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Financial Data Analysis
+- Technical Analysis
+- Quantitative Trading Strategy Backtesting
+- Portfolio Optimization
+- Interactive Dashboard Development
+- Business Intelligence
+- Data Storytelling
 
 ---
 
-# 📈 Dashboard Pages
+# 💼 Business Value
 
-## 1️⃣ Market Overview
+This project demonstrates how historical financial data can be transformed into meaningful business intelligence.
 
-Provides a macro-level view of the Pakistan Stock Exchange.
+The dashboard enables analysts, investors, and decision-makers to:
 
-Features:
-
-- KSE-100 Trend
-- Market Volume Analysis
-- Sector Performance
-- Market KPIs
-
----
-
-## 2️⃣ Company Analysis
-
-Detailed technical analysis for individual companies.
-
-Includes:
-
-- Price Trend
-- Candlestick Charts
-- Moving Average (MA20 & MA50)
-- RSI Indicator
-- Volume Analysis
+- Monitor overall market performance
+- Compare company-level performance
+- Analyze technical indicators
+- Evaluate quantitative trading strategies
+- Explore optimized investment portfolios
+- Support data-driven investment decisions
 
 ---
 
-## 3️⃣ Trading Strategy Performance
-
-Performance comparison of quantitative trading strategies.
-
-Strategies evaluated:
-
-- Moving Average Crossover
-- RSI Mean Reversion
-- Buy & Hold Benchmark
-
-Performance Metrics:
-
-- Total Return
-- Sharpe Ratio
-- Maximum Drawdown
-
----
-
-## 4️⃣ Portfolio Optimization
-
-Portfolio optimization using Modern Portfolio Theory.
-
-Features:
-
-- Monte Carlo Simulation
-- Efficient Frontier
-- Maximum Sharpe Portfolio
-- Minimum Volatility Portfolio
-- Asset Allocation Visualization
-
----
-
-# 💡 Key Business Insights
+# 💡 Key Insights
 
 - Banking stocks demonstrated relatively stable long-term performance.
-- Cement and Oil & Gas sectors exhibited higher volatility.
-- Moving Average strategy outperformed RSI strategy across most companies.
-- RSI strategy performed better during sideways markets.
-- Portfolio diversification significantly reduced investment risk.
-- The Maximum Sharpe Portfolio provided the best risk-adjusted return.
+- Cement and Oil & Gas sectors exhibited higher market volatility.
+- Moving Average strategy outperformed RSI strategy for most companies.
+- RSI strategy performed better during sideways market conditions.
+- Diversified portfolios significantly reduced investment risk.
+- Maximum Sharpe Portfolio delivered the best risk-adjusted return.
 
 ---
 
@@ -205,16 +223,13 @@ Features:
 
 ```
 PSX-Market-Intelligence/
-│
-├── README.md
-├── LICENSE
-│
+
 ├── notebooks/
 │   ├── 01_Data_Collection.ipynb
-│   ├── 02_ETL.ipynb
+│   ├── 02_Data_Preprocessing_ETL.ipynb
 │   ├── 03_Descriptive_Analytics.ipynb
-│   ├── 04_Technical_Indicators.ipynb
-│   ├── 05_Trading_Strategy.ipynb
+│   ├── 04_Technical_Analysis.ipynb
+│   ├── 05_Trading_Strategy_Backtesting.ipynb
 │   └── 06_Portfolio_Optimization.ipynb
 │
 ├── data/
@@ -224,10 +239,10 @@ PSX-Market-Intelligence/
 │   └── PSX_Market_Intelligence.pbix
 │
 ├── images/
-│   ├── dashboard_1.png
-│   ├── dashboard_2.png
-│   ├── dashboard_3.png
-│   └── dashboard_4.png
+│   ├── dashboard1_market_overview.png
+│   ├── dashboard2_company_analysis.png
+│   ├── dashboard3_trading_strategy.png
+│   └── dashboard4_portfolio_optimization.png
 │
 └── documentation/
     └── PSX_Market_Intelligence_Report.pdf
@@ -235,32 +250,22 @@ PSX-Market-Intelligence/
 
 ---
 
-# 🚀 How to Use
+# 🚀 Future Improvements
 
-1. Clone this repository.
-2. Open the Jupyter notebooks to explore the data pipeline.
-3. Review the processed dataset.
-4. Open the Power BI (.pbix) file using Microsoft Power BI Desktop.
-5. Interact with the dashboard pages to explore market trends, trading strategies, and portfolio optimization.
-
----
-
-# 🔮 Future Improvements
-
-- Real-time stock market integration
-- Machine Learning-based stock price forecasting
-- Additional technical indicators
-- Macroeconomic factor integration
-- Sector-wide portfolio optimization
+- Real-time PSX data integration
+- Machine Learning-based stock price prediction
+- Sentiment Analysis using financial news
+- Macroeconomic indicator integration
+- Sector-level portfolio optimization
 - Automated dashboard refresh
 
 ---
 
 # ⚠️ Disclaimer
 
-This project was developed for **educational and portfolio purposes** using publicly available historical market data.
+This project was developed for **educational and portfolio purposes** using publicly available historical stock market data.
 
-The analysis and trading strategies presented here **do not constitute financial or investment advice**.
+The analysis, trading strategies, and portfolio optimization presented in this project are intended for learning and demonstration purposes only and **should not be considered financial or investment advice**.
 
 ---
 
@@ -268,8 +273,14 @@ The analysis and trading strategies presented here **do not constitute financial
 
 **Kashif Hussain**
 
-MS Data Science Student
+ Data Scientist
 
-Python | Power BI | Data Analytics | Machine Learning
+📧 Email: *kashifw6734@gmail.com*
 
-If you found this project interesting, feel free to ⭐ the repository and connect with me on LinkedIn.
+💼 LinkedIn: *https://www.linkedin.com/in/kashif6734/*
+
+💻 GitHub: *https://github.com/kashif6734*
+
+---
+
+⭐ **If you found this project useful, please consider giving it a Star!**
