@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/cover.png" alt="PSX Market Intelligence Dashboard" width="100%">
+  <img src="images/cover.JPG" alt="PSX Market Intelligence Dashboard" width="100%">
 </p>
 
 # 📈 PSX Market Intelligence & Portfolio Optimization System
@@ -47,7 +47,7 @@ The project simulates the workflow of a **Data Analyst** or **Quantitative Analy
 ## 🌍 1. Market Overview
 
 <p align="center">
-<img src="images/dashboard1_market_overview.png" width="90%">
+<img src="images/01_market_overview.JPG" width="90%">
 </p>
 
 Provides a macro-level overview of the Pakistan Stock Exchange including:
@@ -63,7 +63,7 @@ Provides a macro-level overview of the Pakistan Stock Exchange including:
 ## 📈 2. Company Analysis
 
 <p align="center">
-<img src="images/dashboard2_company_analysis.png" width="90%">
+<img src="images/02_company_analysis.JPG" width="90%">
 </p>
 
 Technical analysis dashboard featuring:
@@ -79,7 +79,7 @@ Technical analysis dashboard featuring:
 ## 📉 3. Trading Strategy Performance
 
 <p align="center">
-<img src="images/dashboard3_trading_strategy.png" width="90%">
+<img src="images/04_trading_strategy_performance.JPG" width="90%">
 </p>
 
 Compares multiple trading strategies:
@@ -99,7 +99,7 @@ Performance Metrics:
 ## 💼 4. Portfolio Optimization
 
 <p align="center">
-<img src="images/dashboard4_portfolio_optimization.png" width="90%">
+<img src="images/05_portfolio_optimization.JPG" width="90%">
 </p>
 
 Portfolio optimization using **Modern Portfolio Theory**.
