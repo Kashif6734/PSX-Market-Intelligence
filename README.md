@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/cover.JPG" alt="PSX Market Intelligence Dashboard" width="100%">
+  <img src="images/Cover.jpg" alt="PSX Market Intelligence Dashboard" width="100%">
 </p>
 
 # 📈 PSX Market Intelligence & Portfolio Optimization System
